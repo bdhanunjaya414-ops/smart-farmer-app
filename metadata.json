@@ -1,0 +1,9 @@
+{
+  "name": "Smart Farmer Digital Agriculture Ecosystem",
+  "description": "A comprehensive AgriTech platform providing farmers with AI disease detection, market prices, weather alerts, marketplace, and expert consultation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
