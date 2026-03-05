@@ -18,3 +18,4 @@ View your app in AI Studio: https://ai.studio/apps/77a38c69-60eb-4912-bfef-6ff0c
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+"# smart-farmer-app" 
