@@ -1,0 +1,25 @@
+{
+  "name": "smart-farmer-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Smart Farmer Express Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "lint": "echo 'No linter configured yet'"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {}
+}

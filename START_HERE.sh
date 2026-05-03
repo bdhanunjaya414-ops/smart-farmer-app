@@ -1,0 +1,165 @@
+#!/bin/bash
+# Quick Start Script - Run these commands in order
+
+echo "╔═══════════════════════════════════════════════════════════╗"
+echo "║   Smart Farmer App - Full Stack Setup (RESTRUCTURED)     ║"
+echo "╚═══════════════════════════════════════════════════════════╝"
+echo ""
+
+# ============================================
+# STEP 1: Start Backend
+# ============================================
+echo "📱 STEP 1: Start Backend Server"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "Run this in Terminal 1:"
+echo ""
+echo "  cd backend"
+echo "  npm install"
+echo "  npm run dev"
+echo ""
+echo "✓ Backend will run on: http://localhost:5000"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+# ============================================
+# STEP 2: Start Frontend
+# ============================================
+echo "⚛️  STEP 2: Start Frontend App"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "Run this in Terminal 2 (while backend is running):"
+echo ""
+echo "  cd frontend"
+echo "  npm install"
+echo "  npm run dev"
+echo ""
+echo "✓ Frontend will run on: http://localhost:5173"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+# ============================================
+# STEP 3: Test
+# ============================================
+echo "✅ STEP 3: Test Connection"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "1. Open: http://localhost:5173"
+echo "2. Click: 'Test API Connection' button"
+echo "3. See: Green success message ✓"
+echo ""
+echo "If you see the green message, everything works!"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+# ============================================
+# DOCUMENTATION
+# ============================================
+echo "📚 Documentation Files"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+echo "Read these in order:"
+echo ""
+echo "  1. QUICKSTART.md"
+echo "     └─ Quick reference for basic commands"
+echo ""
+echo "  2. README.md"
+echo "     └─ Project overview and local setup"
+echo ""
+echo "  3. ARCHITECTURE.md"
+echo "     └─ How frontend and backend connect"
+echo ""
+echo "  4. FRONTEND_BACKEND_INTEGRATION.md"
+echo "     └─ How to add API endpoints and call them"
+echo ""
+echo "  5. DEPLOYMENT.md"
+echo "     └─ Deploy to Vercel (frontend) and Render (backend)"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+# ============================================
+# FOLDER STRUCTURE
+# ============================================
+echo "📁 Project Structure"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+echo "smart-farmer-app-main/"
+echo "├── frontend/"
+echo "│   ├── src/"
+echo "│   │   ├── App.tsx          (React component)"
+echo "│   │   ├── main.tsx         (Entry point)"
+echo "│   │   └── index.css        (Styles)"
+echo "│   ├── index.html"
+echo "│   ├── package.json"
+echo "│   └── vite.config.ts"
+echo "│"
+echo "├── backend/"
+echo "│   ├── server.js           (Express API)"
+echo "│   ├── package.json"
+echo "│   └── .env.example"
+echo "│"
+echo "├── QUICKSTART.md"
+echo "├── README.md"
+echo "├── ARCHITECTURE.md"
+echo "├── DEPLOYMENT.md"
+echo "└── FRONTEND_BACKEND_INTEGRATION.md"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+# ============================================
+# TESTING ENDPOINTS
+# ============================================
+echo "🧪 Test Backend Endpoints (after starting backend)"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+echo "In your browser or terminal:"
+echo ""
+echo "  # Health check"
+echo "  curl http://localhost:5000/health"
+echo ""
+echo "  # Main API"
+echo "  curl http://localhost:5000/api"
+echo ""
+echo "  # Get crops"
+echo "  curl http://localhost:5000/api/crops"
+echo ""
+echo "  # Get market prices"
+echo "  curl http://localhost:5000/api/market-prices"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+# ============================================
+# NEXT STEPS
+# ============================================
+echo "🚀 Next Steps"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+echo "  ✅ Local Development (Now)"
+echo "     └─ Start backend and frontend (see above)"
+echo ""
+echo "  ✅ Local Testing"
+echo "     └─ Click test button in frontend"
+echo ""
+echo "  🚀 Production Deployment (Later)"
+echo "     └─ Read DEPLOYMENT.md"
+echo "     └─ Deploy backend to Render"
+echo "     └─ Deploy frontend to Vercel"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+echo "📞 Need Help?"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+echo "  - Local setup issues? → See README.md"
+echo "  - How to add API endpoints? → See FRONTEND_BACKEND_INTEGRATION.md"
+echo "  - Ready to deploy? → See DEPLOYMENT.md"
+echo "  - Need architecture details? → See ARCHITECTURE.md"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+echo "✨ Happy Coding! 🌾"
+echo ""
